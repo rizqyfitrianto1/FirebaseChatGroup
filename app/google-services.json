@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089535435631",
+    "firebase_url": "https://firechatgo2.firebaseio.com",
+    "project_id": "firechatgo2",
+    "storage_bucket": "firechatgo2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089535435631:android:db220a1fd549b42b743e9a",
+        "android_client_info": {
+          "package_name": "com.tugasbesarkotlin5.firechatgo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089535435631-41d59dvbl5vujo6v9efvkujbfe37urs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugasbesarkotlin5.firechatgo2",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "1089535435631-6ok6330it32dmqhoe4c6hit4jkoei28s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv-fcy2NRoakZiRAoB_AcyvZEi9WBOYD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089535435631-6ok6330it32dmqhoe4c6hit4jkoei28s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

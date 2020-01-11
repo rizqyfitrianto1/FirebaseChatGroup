@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GroupNameActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mToolbarNewGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimary" tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/iv_backGroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_titleName"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/group_name"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/group_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/bg_group"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_groupName"
+                android:layout_marginTop="10dp"
+                app:met_floatingLabel="normal"
+                android:hint="e.g Pengabdi Koding"/>
+
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:id="@+id/btn_createGroup"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+        />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
